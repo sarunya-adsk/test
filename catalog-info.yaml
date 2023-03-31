@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  description: "test"
+  annotations:
+    github.com/project-slug: squad-euler-adsk/test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "jimenesa"
